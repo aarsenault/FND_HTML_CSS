@@ -16,38 +16,77 @@
 }
 
 
-/*.whole_page{
-
-    display: block;
-    max-width: 960px;
-    margin: auto;
-}
-*/
-
-/* Responsive part */
-
-/*@media only screen and (max-width: 500px) {
-
-    p {
-
-        display: none;
-   }
-
-}
-*/
-
-
 .whole_page{
 
-    padding: 3.5%;
+    display: block;
+    padding-right: 3.5%;
+    padding-left: 3.5%;
     max-width: 85%;
     margin: auto;
+}
+
+
+
+.jumbotron{
+
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin: auto;
+}
+
+/*header {
+
+    display: flex;
+    flex-wrap: wrap;
+
+}*/
+
+
+.circle{
+
+    width: 160px;
+    height: 160px;
+    -moz-border-radius: 80px;
+    -webkit-border-radius: 80px;
+    border-radius: 80px;
 }
 
 .body{
 
 /*    width: 100%;
     margin: auto;*/
+}
+
+h1 {
+
+    font-size: 400%;
+    font-weight: 300;
+}
+
+.name{
+
+    display: block;
+    flex-wrap: nowrap;
+    text-align: right;
+    padding-right: 30px;
+
+}
+
+.rightalign{
+
+    text-align: right;
+}
+
+.centalign{
+
+    text-align: center;
+}
+
+
+.rowrightal{
+
+    float: right;
 }
 
 .grid{
@@ -59,7 +98,21 @@
 
 
 *{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato:700', sans-serif;
+}
+
+
+.divider{
+
+    height: 5px;
+    width: 100%;
+    background: #7d97ad;
+}
+
+hr{
+
+    height: 10px;
+    color: blue;
 }
 
 
@@ -68,6 +121,7 @@
 .row{
 
     width: 100%;
+    margin: 10px;
 }
 
 .col-1{
