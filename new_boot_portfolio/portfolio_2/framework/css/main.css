@@ -1,5 +1,40 @@
 /* Main page layout stuff: */
 
+/*
+
+blue
+#505050
+
+l-blue
+#619ab7
+
+black
+#0e0e10
+
+d-brown
+#462e24
+
+m-brown
+#70422b
+
+l-borwn
+#a86d45
+
+beige
+#ce9c77
+
+pink
+#fca883
+
+taupe
+#ebddd0
+
+white
+#f5f7f6
+
+*/
+
+
 *
 {
     /*    border: 1px solid red !important;
@@ -8,29 +43,35 @@
 
 *
 {
-    display: flex;
+/*    display: flex;
 
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
-
-
-    background-color: #619ab7;
-/*    color: #303C6C;
 */
-    color: #f4876c;
 
-        -ms-box-sizing: border-box;
-    flex-wrap: wrap;
+    background-color: #ce9c77;
+
+
+    color: #70422b;
+
+/*        -ms-box-sizing: border-box;
+    flex-wrap: wrap;*/
 }
 
 
 .whole_page
 {
-    display: block;
 
     max-width: 100%;
     margin: auto;
+
+
+/*    max-width: 100%;
+    margin: auto;*/
+
+    /*black*/
+    background-color: #0e0e10;
 
 /*    padding-right: 3.5%;
     padding-left: 3.5%;
@@ -38,17 +79,26 @@
 
 }
 
+.content{
 
+    max-width: 85%;
+    margin: auto;
+}
 
 
 
 .jumbotron
 {
-    display: block;
 
+/*
     max-width: 100%;
-    height: auto;
-    margin: auto;
+    height: auto;*/
+
+}
+
+.jm{
+
+    max-width: 115%;
 }
 
 /*header {
@@ -61,13 +111,14 @@
 
 .circle
 {
-    width: 160px;
-    height: 160px;
+  /*  width: 160px;
+    height: 160px;*/
 
-    border: 5px solid #FBE8A6;
-    -webkit-border-radius: 80px;
-       -moz-border-radius: 80px;
-            border-radius: 80px;
+
+    border: 5px solid #fca883;
+    margin: 10px;
+    background-color: #c39a85;
+
 }
 
 .body
@@ -81,7 +132,7 @@ h1
     font-family: 'Lato', sans-serif;
     font-size: 56px;
     font-weight: 400;
-    color: #FBE8A6;
+    color: #462e24;
 
     margin-bottom: 0;
 }
@@ -89,7 +140,7 @@ h1
 h2
 {
 /*    color: #FBE8A6;
-*/    color: #303C6C;
+*/    color: #ebddd0;
 }
 
 h3
@@ -97,16 +148,16 @@ h3
     font-family: 'Lato', sans-serif;
     font-size: 26px;
     font-weight: 300;
+    color: #ebddd0;
 }
 
 h4
 {
     display: block;
 
-    margin: 0;
+    margin: 5%;
     /*margin-bottom: 10px;*/
 
-    text-align: right;
     text-align: center;
 
     /*flex-wrap: nowrap;*/
@@ -119,6 +170,20 @@ h4
     margin-top: 10px;
 }
 
+.breaksapce
+{
+
+    width: 100%;
+    height: 15px;
+
+    background-color: #0e0e10;
+}
+
+.space{
+    width: 100%;
+    height:15px;
+}
+
 .name
 {
     display: block;
@@ -127,10 +192,15 @@ h4
 
     text-align: right;
 
-    flex-wrap: nowrap;
+
 }
 
-
+.imgg{
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px ;
+    background-color: #c39a85;
+}
 
 .showcase
 {
@@ -140,8 +210,8 @@ h4
 
 .image_box{
 
-    border: 5px solid #FBE8A6;
-}
+/*    border: 5px solid #fca883;
+*/}
 
 
 
@@ -155,7 +225,66 @@ h4
 {
     width: 100%;
     height: 5px;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
 
-    background: #FBE8A6;
+    background: #fca883;
+}
+
+
+
+
+
+/* Stuff for social buttons */
+/* Style all font awesome icons */
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: #70422b;
+    color: #ebddd0;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+    color: #fca883;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #70422b;
+    color: #ebddd0;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #70422b;
+    color: #ebddd0;
+}
+
+.fa-github{
+
+    background: #70422b;
+    color: #ebddd0;
+}
+
+.fa-envelope{
+
+    background: #70422b;
+    color: #ebddd0;
+
+}
+.fa-linkedin{
+
+    background: #70422b;
+    color: #ebddd0;
+
 }
 
